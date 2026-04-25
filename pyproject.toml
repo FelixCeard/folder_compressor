@@ -1,5 +1,5 @@
 [project]
-name = "folder-compressor"
+name = "compress-images"
 version = "0.1.0"
 description = "A simple tool to compress a folder of JPGs to webp files."
 authors = [
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-compress-images = "folder_compressor:main"
+compress-images = "compress_images:main"
 
 [build-system]
 requires = ["uv_build>=0.8.13,<0.9.0"]
